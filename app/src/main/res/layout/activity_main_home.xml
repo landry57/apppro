@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="false"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorwi"
+    tools:context=".MainHomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logout"/>
+    </LinearLayout>
+    
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:layout_marginTop="20dp"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:gravity="center"
+           android:orientation="vertical">
+          <LinearLayout
+              android:layout_width="200dp"
+              android:background="@drawable/shape_circle"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_height="200dp">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="44dp"
+                  android:text="55"
+                  android:textStyle="bold"
+                  android:textColor="@color/Orange" />
+          </LinearLayout>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_weight="1"
+           android:gravity="center"
+           android:padding="10dp"
+           android:layout_width="250dp"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/Orange"
+               android:textStyle="bold"
+               android:layout_marginBottom="30dp"
+               android:text="Nombre de personne"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="#000"
+               android:textSize="19dp"
+               android:layout_marginBottom="30dp"
+               android:text="Nombre de personne Nombre de personne Nombre de personne Nombre de personne"/>
+       </LinearLayout>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="40dp"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/id_verification"
+            android:layout_width="match_parent"
+            android:hint="VERIFICATION"
+            android:textStyle="bold"
+            android:textColorHint="@color/Orange"
+            android:textColor="@color/Orange"
+            android:background="@drawable/bg_input"
+            android:layout_marginBottom="50dp"
+            android:layout_height="89dp" />
+
+        <Button
+            android:id="@+id/id_evenement"
+            android:layout_width="match_parent"
+            android:hint="EVENEMENTS"
+            android:textStyle="bold"
+            android:textColorHint="@color/Orange"
+            android:textColor="@color/Orange"
+            android:background="@drawable/bg_input"
+            android:layout_height="89dp" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorwi"
+    android:fillViewport="false"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorwi"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="80dp"
+    android:layout_marginBottom="45dp"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image"/>
+</LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:paddingLeft="10dp"
+     android:paddingRight="10dp"
+     android:layout_weight="1"
+     android:gravity="center"
+     android:orientation="vertical"
+     android:layout_gravity="center">
+
+     <EditText
+         android:id="@+id/login"
+         android:layout_width="match_parent"
+         android:layout_height="56dp"
+         android:textColor="@color/Orange"
+         android:inputType="text"
+         android:textColorHint="@color/Orange"
+         android:paddingLeft="5dp"
+         android:hint="Email/Téléphone"
+         android:background="@drawable/bg_input"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="20dp"/>
+     <EditText
+         android:id="@+id/password"
+         android:layout_width="match_parent"
+         android:layout_height="56dp"
+         android:paddingLeft="5dp"
+         android:hint="Password"
+         android:textColorHint="@color/Orange"
+         android:textColor="@color/Orange"
+         android:inputType="textWebPassword"
+         android:background="@drawable/bg_input"/>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:orientation="vertical"
+         android:layout_marginTop="100dp"
+         android:layout_marginBottom="60dp"
+         android:layout_weight="1"
+         android:layout_gravity="center"
+         android:gravity="center"
+         android:layout_height="match_parent">
+
+         <Button
+             android:id="@+id/btn_login"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Connexion"
+             android:textColor="@color/colorwi"
+             android:background="@color/Orange"
+             android:textAllCaps="false"
+             />
+     </LinearLayout>
+ </LinearLayout>
+
+
+
+</LinearLayout>
+</ScrollView>
