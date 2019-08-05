@@ -40,7 +40,7 @@ private HttpUtils httpUtils;
             public void onClick(View view) {
 
                 Login();
-                startActivity(new Intent(getApplicationContext(),MainHomeActivity.class));
+                //startActivity(new Intent(getApplicationContext(),MainHomeActivity.class));
 
             }
         });

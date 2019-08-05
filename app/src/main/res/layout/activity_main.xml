@@ -42,7 +42,7 @@
      <EditText
          android:id="@+id/login"
          android:layout_width="match_parent"
-         android:layout_height="56dp"
+         android:layout_height="45dp"
          android:textColor="@color/Orange"
          android:inputType="text"
          android:textColorHint="@color/Orange"
@@ -55,7 +55,7 @@
      <EditText
          android:id="@+id/password"
          android:layout_width="match_parent"
-         android:layout_height="56dp"
+         android:layout_height="45dp"
          android:paddingLeft="5dp"
          android:hint="Password"
          android:textColorHint="@color/Orange"
